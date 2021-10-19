@@ -4,23 +4,28 @@ import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
 const markers = [
   {
     id: 1,
-    name: "Chicago, Illinois",
-    position: { lat: 41.881832, lng: -87.623177 }
+    name: "नई दिल्ली, New Delhi is the capital of India and an administrative district of the National Capital Territory of Delhi.",
+    position: { lat: 28.57015837599461,  lng: 77.0912233292488 }
   },
   {
     id: 2,
-    name: "Denver, Colorado",
-    position: { lat: 39.739235, lng: -104.99025 }
+    name: "देहरादून, Dehradun is the capital of the Indian state of Uttarakhand, near the Himalayan foothills.",
+    position: { lat: 30.32007541488116, lng:  78.01266940897766 }
   },
   {
     id: 3,
-    name: "Los Angeles, California",
-    position: { lat: 34.052235, lng: -118.243683 }
+    name: "लखनऊ, Lucknow, a large city in northern India, is the capital of the state of Uttar Pradesh",
+    position: { lat: 26.84683685908453,  lng: 80.90131192089669 }
   },
   {
     id: 4,
-    name: "New York, New York",
-    position: { lat: 40.712776, lng: -74.005974 }
+    name: "गोआ, Goa is a state in western India with coastlines stretching along the Arabian Sea. ",
+    position: { lat:15.46486926552746,  lng: 74.02325748042654 }
+  },
+  {
+    id: 5,
+    name: "मनाली, Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. ",
+    position: { lat:32.24491551601754,   lng: 77.17879409724955 }
   }
 ];
 
